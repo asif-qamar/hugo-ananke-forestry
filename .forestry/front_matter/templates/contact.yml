@@ -4,7 +4,9 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: The Way to Learning Artificial Intelligence!
+  description: An in depth, experiential and exploratory journey into a mastery of
+    AI and Data Science.
 - type: text
   name: description
   label: description
