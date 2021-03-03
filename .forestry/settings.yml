@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: deep-learning
+  label: Deep Learning Workshop
+  create: all
+  match: deep-learning/*
+  templates:
+  - page
 - type: heading
   label: Workshops
 - type: directory
